@@ -1,23 +1,20 @@
-body{
-    min-width: 1122px;
+body {
+	min-width: 1122px;
 	/*min-height: 1750px;*/
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    color: #000000;
-    font-weight: bold;
-    font-family: "PT Sans Narrow", "PT Sans", "Arial";
-    text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "PT Sans Narrow", "PT Sans", "Arial";
+	text-transform: uppercase;
 }
-
 .clearfix::after {
 	content: "";
-	
 	display: table;
 	clear: both;
 }
-
-h1{
+h1 {
 	margin: 0;
 	margin-bottom: 22px;
 	padding: 0;
@@ -25,171 +22,129 @@ h1{
 	line-height: 35px;
 	font-family: "PT Sans Narrow", "PT Sans", "Arial";
 	font-weight: 700;
-	
-	
-	outline: 2px solid red;
+	outline: 2px solid #ff0000;
 }
-
-h2{
-    font-size: 30px;
-    color: #000000;
-    font-weight: 700;
-    font-family: "PT Sans Narrow", "PT Sans", "Arial";
-    text-transform: uppercase
+h2 {
+	font-size: 30px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "PT Sans Narrow", "PT Sans", "Arial";
+	text-transform: uppercase
 }
-
-b{
-    font-size: 24px;
-    color: #000000;
-    font-weight: 700;
-    font-family: "PT Sans Narrow", "PT Sans", "Arial";
-    text-transform: uppercase
+b {
+	font-size: 24px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "PT Sans Narrow", "PT Sans", "Arial";
+	text-transform: uppercase
 }
-
 .main-header {
 	margin-bottom: 60px;
-	
-	outline: 2px solid green;
+	outline: 2px solid #1ca422;
 }
-
-.container{
+.container {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	
-	outline: 2px solid purple;
+	outline: 2px solid #c903fb;
 }
-
 .main-navigation {
 	width: 780px;
 	float: left;
-	
 	min-height: 70px;
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .main-navigation li {
 	display: inline;
 }
-
 .page-header {
 	margin-bottom: 55px;
 }
-
 .page-header-logo {
 	width: 140px;
 	margin-right: 20px;
 	float: left;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 	min-height: 70px;
 }
-
 .page-header .main-navigation {
 	width: 620px;
 }
-
 .user-block {
 	width: 140px;
 	float: right;
-	
 	min-height: 70px;
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .index-logo {
 	width: 368px;
 	height: 204px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 25px;
-	
-	outline: 2px solid green;
+	outline: 2px solid #1ca422;
 }
-
 .features {
 	margin-bottom: 80px;
-	outline: 2px solid red;
+	outline: 2px solid #ff0000;
 }
-
 .features-item {
 	width: 300px;
 	float: left;
 	margin-right: 20px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .features-item:last-child {
 	margin-right: 0;
 }
-
 .index-content {
 	padding: 50px 80px;
 	margin-bottom: 35px;
-	
-	outline: 2px solid red;
+	outline: 2px solid #ff0000;
 }
-
 .index-content:last-child {
 	margin-bottom: 65px;
 }
-
 .index-content-left {
 	float: left;
 	width: 380px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 	min-height: 330px;
 }
-
 .index-content-right {
 	float: right;
 	width: 300px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 	min-height: 330px;
 }
-
-.breadcrumbs{
+.breadcrumbs {
 	margin-bottom: 55px;
-	
 	min-height: 17px;
-	outline: 2px solid red;
+	outline: 2px solid #ff0000;
 }
-
-.breadcrumbs ul{
+.breadcrumbs ul {
 	margin: 0;
 	padding: 0;
 }
-
-.breadcrumbs li{
+.breadcrumbs li {
 	margin: 0;
 	padding: 0;
-	
 	display: inline;
 }
-
 .shop-gallery {
 	margin-bottom: 55px;
-	
-	outline: 2px solid red;
+	outline: 2px solid #ff0000;
 }
-
 .goods-selection {
 	float: left;
 	width: 220px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .items-gallery {
 	float: right;
 	width: 700px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .item-preview {
 	width: 220px;
 	height: 286px;
@@ -197,42 +152,32 @@ b{
 	vertical-align: top;
 	margin-right: 17px;
 }
-
 .item-preview:nth-child(3n) {
 	margin-right: 0;
 }
-
 .item-card {
 	margin-bottom: 44px;
-	
-	outline: 2px solid red;
+	outline: 2px solid #ff0000;
 }
-
 .item-images {
 	margin: 0;
 	padding: 0;
 	width: 486px;
 	float: left;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .item-images img {
 	margin: 0;
 	padding: 0;
 }
-
 .img-big {
 	margin: 0;
 }
-
 .item-description {
 	width: 390px;
 	float: right;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .img-mini {
 	width: 166px;
 	display: inline-block;
@@ -240,49 +185,24 @@ b{
 	margin-right: -10px;
 }
 .main-footer {
-	outline: 2px solid green;
+	outline: 2px solid #1ca422;
 }
-
 .footer-contacts {
 	width: 320px;
 	min-height: 190px;
 	float: left;
 	margin-right: 60px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .footer-social {
 	width: 180px;
 	float: left;
 	min-height: 190px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
 .footer-copyright {
 	width: 180px;
 	float: right;
 	min-height: 190px;
-	
-	outline: 2px solid yellow;
+	outline: 2px solid #f8fb03;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
